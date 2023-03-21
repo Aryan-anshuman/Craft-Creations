@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Craft Creations</title>
+    <link rel="icon" href="images/upperlogo.png">
+    <style>
+        body{
+            padding-left: 10%;
+            padding-right: 10%;
+        }
+        *{  
+            top: 0;
+            padding: 0;
+        }
+        .header{
+            display: flex;
+            flex:1
+        }
+        .head{
+            text-align: center;
+            font-size: 20px;
+            font-weight: bold;
+            color:white;
+            background: #603814;
+            padding: 10px;
+            border-radius: 10px;
+        }
+        .img{
+            display: flex ;
+        }
+        .text{
+            padding-left: 100px
+            
+        }
+        .price{
+            color: ;
+        }
+        .text{
+            color: #603814;
+            font-size: larger;
+        }
+        .price{
+            font-size: xx-large;
+        }
+        #btn-1, #btn-2{
+            background: #603814;
+            border: 0;
+            color: white;
+            font-weight: bold;
+            padding: 10px;
+            border-radius: 5px;   
+        }
+        .button-1{
+            display:flex;
+            max-width: fit-content;
+            position: relative;
+            align-items: center;
+        }
+        #btn-2{
+            padding-left: 10px;
+        }
+        .mrp{
+            color: gray;
+        }
+        .products{
+            display : flex;
+            flex:1;
+            align-items: center;
+            max-width: 100%;
+        }
+        #b1{
+    border: 0;
+    color: #fff;
+    background: #432000;
+    padding: 10px;
+    border-radius: 10px;
+  }
+    </style>
+</head>
+<body >
+    <div class="header">
+        
+    </div>
+    <div class="product">
+        <p class="head">Ganesh Statue</p>
+        <section class="img">
+            <img src="images/24.jpg" width="300px" length="200px">
+            <section class="text">
+                <p>A statue made out of metal.<br>Dimessions 20cm X 30cm X 20m </p>
+                <p class="price">₹2,599</p>
+                <p class="mrp"><s>M.R.P. 3,999</s></p>
+                <section class="offers">
+                    <p><b>Available Offers</b></p>
+                    <table>
+                        <tr>
+                            <td><img src="images/sell_FILL0_wght400_GRAD0_opsz48.png" width="30px"></td>
+                            <td>50% off for students taking part in Rajasthan IT Day Hackathon</td>            
+                        </tr>
+                        <tr>
+                            <td><img src="images/sell_FILL0_wght400_GRAD0_opsz48.png" width="30px"></td>
+                            <td>10% offer on select credit cards.</td>
+                        </tr>
+                        <tr>
+                            <td><img src="images/sell_FILL0_wght400_GRAD0_opsz48.png" width="30px"></td>
+                            <td>10% offer on select SBI Debit &credit cards.</td>
+                        </tr>
+                    </table>
+                </section>
+            </section>
+        </section>
+        <span class="button-1" >
+            &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<button id="btn-1">Buy Now</button> &nbsp; &nbsp; &nbsp; &nbsp;
+            <button id="btn-2">Add to Cart</button>
+        </span>
+    </div>
+
+    <div class="suggestions">
+        <h1>Suggested Products</h1>
+        <div class="products">
+            <div class="card">
+              <a href="all_products.html">
+                <img src="images/29.jpg" alt="dolls_photo" style="height: 200px; width: 200px;">
+              </a>
+              <h6>Rajasthani Bandhani Saree</h6>
+              <p class="price">₹2,199</p>
+              <p>Made with White Marble of Rajasthan</p>
+              <p class="description"><button id="b1">Add to Cart</button></p>
+            </div>
+    
+            <div class="card">
+                <a href="all_products.html">
+                  <img src="images/30.jpg" alt="dolls_photo" style="height: 200px; width: 200px;">
+                </a>
+                <h6>Rajasthani Puppets</h6>
+                <p class="price">₹599</p>
+                <p>Made with White Marble of Rajasthan</p>
+                <p class="description"><button id="b1">Add to Cart</button></p>
+            </div>
+    
+            <div class="card">
+                <a href="main.html">
+                  <img src="images/blue_pottery3-removebg-preview.png" alt="dolls_photo" style="height: 200px; width: 200px;">
+                </a>
+                <h6>Blue Pottery</h6>
+                <p class="price">₹2,999</p>
+                <p>Made with White Marble of Rajasthan</p>
+                <p class="description"><button id="b1">Add to Cart</button></p>
+              </div>
+    
+            <div class="card">
+                <a href="main.html">
+                  <img src="images/26.jpg" alt="dolls_photo" style="height: 200px; width: 200px;">
+                </a>
+                <h6>Kashmiri Carpet</h6>
+                <p class="price">₹1,499</p>
+                <p>Made with White Marble of Rajasthan</p>
+                <p class="description"><button id="b1">Add to Cart</button></p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

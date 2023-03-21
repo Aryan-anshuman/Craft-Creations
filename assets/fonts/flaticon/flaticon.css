@@ -1,0 +1,44 @@
+@font-face {
+    font-family: "flaticon";
+    src: url("./flaticon.ttf?33e6c8946400372162e4824be239d688") format("truetype"),
+url("./flaticon.woff?33e6c8946400372162e4824be239d688") format("woff"),
+url("./flaticon.woff2?33e6c8946400372162e4824be239d688") format("woff2"),
+url("./flaticon.eot?33e6c8946400372162e4824be239d688#iefix") format("embedded-opentype"),
+url("./flaticon.svg?33e6c8946400372162e4824be239d688#flaticon") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.flaticon-circuit:before {
+    content: "\f101";
+}
+.flaticon-brain:before {
+    content: "\f102";
+}
+.flaticon-robotic-arm:before {
+    content: "\f103";
+}
+.flaticon-machine-learning:before {
+    content: "\f104";
+}
+.flaticon-diagram:before {
+    content: "\f105";
+}
+.flaticon-circuit-1:before {
+    content: "\f106";
+}
+.flaticon-vision:before {
+    content: "\f107";
+}
+.flaticon-chatbot:before {
+    content: "\f108";
+}
